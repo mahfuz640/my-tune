@@ -1,8 +1,20 @@
-@import url("");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 :root{
     --purple500:#281154;
     --purple500:#270082;
     --purple500:#1b0058;
     --red600:#dc0000;
-    --body:#f9f6ff;
+    --body:#f9f6ff; 
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
 }
