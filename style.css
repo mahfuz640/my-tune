@@ -24,21 +24,36 @@ html,body{
 max-width: 1200px;
 margin: 0 auto;
 }
+
+
 ul{
     list-style: none;
 }
+
+
 a{
     text-decoration:none ;
 color: white;
 }
+
+
 header{
     background-color: var(--purple500);
 }
+
+
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: #fff;
 }
 nav ul{
 display: flex;
 gap:20px ;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
 }
