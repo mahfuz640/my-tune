@@ -47,10 +47,21 @@ nav{
     justify-content: space-between;
     align-items: center;
     color: #fff;
+    padding: 20px 0;
 }
 nav ul{
 display: flex;
 gap:20px ;
+}
+
+
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
 }
 
 .logo{
